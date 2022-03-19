@@ -64,3 +64,9 @@ Before we get started, keep in mind:
 [info] 
 [info] +  Success! Logged into GitHub as Chiemelie360 
 [info] 
+[debug] [2022-03-19T21:07:48.422Z] Error: kill ENOSYS
+    at process.kill (node:internal/process/per_thread:220:13)
+    at process.listener (C:\Users\GiLYFEV\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\signal-exit\index.js:95:15)
+    at process.emit (node:events:527:28)
+[error] 
+[error] Error: An unexpected error has occurred.
