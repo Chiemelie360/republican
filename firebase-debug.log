@@ -1,0 +1,66 @@
+[debug] [2022-03-19T19:42:36.303Z] ----------------------------------------------------------------------
+[debug] [2022-03-19T19:42:36.306Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\GiLYFEV\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-03-19T19:42:36.306Z] CLI Version:   10.4.0
+[debug] [2022-03-19T19:42:36.307Z] Platform:      win32
+[debug] [2022-03-19T19:42:36.307Z] Node Version:  v17.6.0
+[debug] [2022-03-19T19:42:36.308Z] Time:          Sat Mar 19 2022 20:42:36 GMT+0100 (West Africa Standard Time)
+[debug] [2022-03-19T19:42:36.308Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-03-19T19:42:36.424Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-03-19T19:42:36.425Z] > authorizing via signed-in user (chiemelieedozie360@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\GiLYFEV\Desktop\builds\republican
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-03-19T19:42:50.209Z] Using project from CLI flag: republican-bf553
+[debug] [2022-03-19T19:42:50.221Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/republican-bf553 [none]
+[debug] [2022-03-19T19:42:51.274Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/republican-bf553 200
+[debug] [2022-03-19T19:42:51.274Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/republican-bf553 {"projectId":"republican-bf553","projectNumber":"254253357965","displayName":"republican","name":"projects/republican-bf553","resources":{"hostingSite":"republican-bf553","storageBucket":"republican-bf553.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[info] i  Using project republican-bf553 (republican) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote public/404.html 
+[debug] [2022-03-19T19:44:50.974Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-03-19T19:44:51.307Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-03-19T19:44:51.307Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.6.9","browserURL":"https://www.gstatic.com/firebasejs/9.6.9/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.6.9/firebase.tgz"},"live":{"version":"9.6","browserURL":"https://www.gstatic.com/firebasejs/live/9.6/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.6/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.6.9/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.6.9/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.6.9/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.6.9/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.6.9/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.6.9/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.6.9/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.6.9/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.6.9/firebase-firestore/lite.js","storage":"https://www.gstatic.com/firebasejs/9.6.9/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.6.9/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.6.9/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.6.9/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.6.9/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.6.9/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.6.9/firebase-firestore.memory.js"}}
+[info] i  Skipping write of public/index.html 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming C:\Users\GiLYFEV\Desktop\builds\republican is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=193676896&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-03-19T19:46:33.680Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"803d94b42462704ab34d","redirect_uri":"http://localhost:9005","state":"193676896"}
+[debug] [2022-03-19T19:46:34.453Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Sat, 19 Mar 2022 19:46:34 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","vary":"X-PJAX, X-PJAX-Container, Accept-Encoding, Accept, X-Requested-With","permissions-policy":"interest-cohort=()","etag":"W/\"9b489196fe105989977fd13350dcc6b6\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"0","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.githubapp.com collector.github.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events translator.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com collector.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/","x-github-request-id":"6057:57D9:7D5459:839889:6236331A"}
+[debug] [2022-03-19T19:46:34.506Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2022-03-19T19:46:35.408Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2022-03-19T19:46:35.408Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"Chiemelie360","id":101831537,"node_id":"U_kgDOBhHTcQ","avatar_url":"https://avatars.githubusercontent.com/u/101831537?v=4","gravatar_id":"","url":"https://api.github.com/users/Chiemelie360","html_url":"https://github.com/Chiemelie360","followers_url":"https://api.github.com/users/Chiemelie360/followers","following_url":"https://api.github.com/users/Chiemelie360/following{/other_user}","gists_url":"https://api.github.com/users/Chiemelie360/gists{/gist_id}","starred_url":"https://api.github.com/users/Chiemelie360/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Chiemelie360/subscriptions","organizations_url":"https://api.github.com/users/Chiemelie360/orgs","repos_url":"https://api.github.com/users/Chiemelie360/repos","events_url":"https://api.github.com/users/Chiemelie360/events{/privacy}","received_events_url":"https://api.github.com/users/Chiemelie360/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":3,"public_gists":0,"followers":0,"following":0,"created_at":"2022-03-17T19:32:42Z","updated_at":"2022-03-17T22:46:58Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":102,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as Chiemelie360 
+[info] 
